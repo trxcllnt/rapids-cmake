@@ -21,8 +21,8 @@ set(rapids-cmake-version 22.08)
 include(FetchContent)
 FetchContent_Declare(
   rapids-cmake
-  GIT_REPOSITORY https://github.com/rapidsai/rapids-cmake.git
-  GIT_TAG        branch-${rapids-cmake-version}
+  GIT_REPOSITORY https://github.com/trxcllnt/rapids-cmake.git
+  GIT_TAG        fea/custom-rapids-cmake
 )
 FetchContent_GetProperties(rapids-cmake)
 if(rapids-cmake_POPULATED)
@@ -34,4 +34,3 @@ if(rapids-cmake_POPULATED)
 else()
   FetchContent_MakeAvailable(rapids-cmake)
 endif()
-
