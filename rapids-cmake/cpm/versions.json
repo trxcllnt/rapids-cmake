@@ -29,6 +29,11 @@
           "file" : "cccl/backport_pr_1499.diff",
           "issue" : "Fix issues with ambiguous calls to addressof in thrust::optional.",
           "fixed_in" : "2.4"
+        },
+        {
+          "file" : "cccl/device_nullopt.diff",
+          "issue" : "Ensure cuda::std::nullopt is visible in device code.",
+          "fixed_in" : ""
         }
       ]
     },
