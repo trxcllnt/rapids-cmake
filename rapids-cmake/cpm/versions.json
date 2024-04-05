@@ -36,7 +36,7 @@
       "version" : "0.0.1",
       "git_shallow" : false,
       "git_url" : "https://github.com/trxcllnt/cuCollections.git",
-      "git_tag" : "cccl-2.3.2",
+      "git_tag" : "rapids-24.02-cccl-2.3.2",
       "patches" : [
         {
           "file" : "cuco/hide_kernels.diff",
