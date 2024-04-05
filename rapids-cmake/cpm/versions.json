@@ -35,8 +35,8 @@
     "cuco" : {
       "version" : "0.0.1",
       "git_shallow" : false,
-      "git_url" : "https://github.com/NVIDIA/cuCollections.git",
-      "git_tag" : "f823d30d6b08a60383266db25821074dbdbe5822",
+      "git_url" : "https://github.com/trxcllnt/cuCollections.git",
+      "git_tag" : "cccl-2.3.2",
       "patches" : [
         {
           "file" : "cuco/hide_kernels.diff",
