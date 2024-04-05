@@ -17,7 +17,7 @@
         },
         {
           "file" : "cccl/hide_kernels.diff",
-          "issue" : "Mark all cub and thrust kernels with hidden visibility [https://github.com/nvidia/cccl/pulls/443]",
+          "issue" : "Mark all cub and thrust kernels with hidden visibility [https://github.com/nvidia/cccl/pull/443]",
           "fixed_in" : "2.3"
         },
         {
@@ -27,13 +27,18 @@
         },
         {
           "file" : "cccl/backport_pr_1499.diff",
-          "issue" : "Fix issues with ambiguous calls to addressof in thrust::optional.",
+          "issue" : "Fix issues with ambiguous calls to addressof in thrust::optional. [https://github.com/NVIDIA/cccl/pull/1499]",
           "fixed_in" : "2.4"
         },
         {
           "file" : "cccl/device_nullopt.diff",
-          "issue" : "Ensure cuda::std::nullopt is visible in device code.",
+          "issue" : "Ensure cuda::std::nullopt is visible in device code. [https://github.com/NVIDIA/cccl/pull/1598]",
           "fixed_in" : ""
+        },
+        {
+          "file" : "cccl/unwrap_nested_tuple_of_iterators.diff",
+          "issue" : "Unwrap nested thrust::tuple_of_iterator_references. [https://github.com/NVIDIA/cccl/pull/1469]",
+          "fixed_in" : "2.4"
         }
       ]
     },
