@@ -1,0 +1,13 @@
+diff --git a/libcudacxx/include/cuda/std/detail/libcxx/include/optional b/libcudacxx/include/cuda/std/detail/libcxx/include/optional
+index 8320afeab..c07b36f3a 100644
+--- a/libcudacxx/include/cuda/std/detail/libcxx/include/optional
++++ b/libcudacxx/include/cuda/std/detail/libcxx/include/optional
+@@ -251,7 +251,7 @@ struct nullopt_t
+     _LIBCUDACXX_INLINE_VISIBILITY constexpr explicit nullopt_t(__secret_tag, __secret_tag) noexcept {}
+ };
+ 
+-_LIBCUDACXX_INLINE_VAR constexpr nullopt_t nullopt{nullopt_t::__secret_tag{}, nullopt_t::__secret_tag{}};
++_LIBCUDACXX_CPO_ACCESSIBILITY nullopt_t nullopt{nullopt_t::__secret_tag{}, nullopt_t::__secret_tag{}};
+ 
+ struct __optional_construct_from_invoke_tag {};
+ 
