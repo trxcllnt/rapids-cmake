@@ -44,6 +44,11 @@
           "file" : "cccl/unwrap_nested_tuple_of_iterators.diff",
           "issue" : "Unwrap nested thrust::tuple_of_iterator_references. [https://github.com/NVIDIA/cccl/pull/1469]",
           "fixed_in" : "2.4"
+        },
+        {
+          "file": "cccl/pr_1643.diff",
+          "issue": "Apply changes from PR 1643 [https://github.com/NVIDIA/cccl/pull/1643]",
+          "fixed_in": "2.5"
         }
       ]
     },
