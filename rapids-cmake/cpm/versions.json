@@ -8,7 +8,7 @@
     "CCCL": {
       "version" : "2.4.0",
       "git_url": "https://github.com/NVIDIA/cccl.git",
-      "git_tag": "v${version}",
+      "git_tag": "v${version}-rc0",
       "patches": [
         {
           "file": "cccl/bug_fixes.diff",
