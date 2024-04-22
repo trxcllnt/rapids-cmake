@@ -20,8 +20,8 @@
     "cuco": {
       "version": "0.0.1",
       "git_shallow": false,
-      "git_url": "https://github.com/NVIDIA/cuCollections.git",
-      "git_tag": "56c53beb6fb0cafd265b7fcc3df78ae487811b22"
+      "git_url": "https://github.com/trxcllnt/cuCollections.git",
+      "git_tag": "rapids-24.04-cccl-2.4.0"
     },
     "fmt": {
       "version": "10.1.1",
