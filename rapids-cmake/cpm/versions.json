@@ -7,8 +7,8 @@
     },
     "CCCL": {
       "version" : "2.4.0",
-      "git_url": "https://github.com/miscco/cccl.git",
-      "git_tag": "fix_cuda_pinned_memory_include",
+      "git_url": "https://github.com/trxcllnt/cccl.git",
+      "git_tag": "miscco-fix_cuda_pinned_memory_include-2",
       "patches": [
         {
           "file": "cccl/revert_pr_211.diff",
